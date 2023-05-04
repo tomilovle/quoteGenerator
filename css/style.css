@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@600&display=swap');
+
+.fade {
+    animation: 1.5s fade ease;
+}
+
+@keyframes fade{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
+
+body {
+    background-color: #c48181;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 80 80' width='80' height='80'%3E%3Cg fill='%23fff48f' fill-opacity='0.19'%3E%3Cpath d='M0 0h80v80H0V0zm20 20v40h40V20H20zm20 35a15 15 0 1 1 0-30 15 15 0 0 1 0 30z' opacity='.5'%3E%3C/path%3E%3Cpath d='M15 15h50l-5 5H20v40l-5 5V15zm0 50h50V15L80 0v80H0l15-15zm32.07-32.07l3.54-3.54A15 15 0 0 1 29.4 50.6l3.53-3.53a10 10 0 1 0 14.14-14.14zM32.93 47.07a10 10 0 1 1 14.14-14.14L32.93 47.07z'%3E%3C/path%3E%3C/g%3E%3C/svg%3E");
+}
+
+.app {
+    width: 600px;
+    margin: auto;
+}
+
+.qoute-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #ccb1b1;
+
+}
+
+.inner-qoute-container p{
+    margin-top: 50px;
+    font-size: 25px;
+    text-align: center;
+    height: 50px;
+}
+
+.inner-qoute-container h2{
+    margin-top: 100px;
+    font-family: 'Cormorant Infant', serif;
+    font-size: 20px;
+    text-align: center;
+}
+
+.btn {
+    margin-top: 50px;
+    background-color: #c48181;
+}
+
+@media (max-width: 900px) {
+    .app {
+        width: 90%;
+        margin: auto;
+    }
+
+}  
